@@ -22,3 +22,20 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+.gallery {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.item__image {
+  display: flex;
+}
+
+.item__image:not(:last-child) {
+  margin-right: 20px;
+}
+.image {
+max-width: 100%;
+}
+
